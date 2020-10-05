@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-width: "100vw";
+    min-height: "100vh";
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imgs/pexels-photo-1662773.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+section .box {
+    position: relative;
+    max-width: 850px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0.5);
+    overflow: hidden;
+}
+section .box:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: url(../imgs/pexels-photo-1662773.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(12px);
+
+}
+
+section .box img {
+    position: relative;
+    padding: 10px;
+    z-index: 2;
+}
+
+section .box p {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    z-index: 2;
+    color: rgb(15, 15, 15)
+
+}
+
+section .box h2 {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    z-index: 2;
+    color: rgb(68, 68, 68)
+
+}
+
+section .box button {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 5;
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 2;
+    color: rgb(170, 170, 170)
+
+}
+
+
+.footer {
+    color: #FFF
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
