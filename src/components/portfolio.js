@@ -1,4 +1,10 @@
 import React from "react";
+import img1 from '../imgs/Capture.PNG';
+import img2 from '../imgs/Capture5.PNG';
+import img3 from '../imgs/Capture6.PNG';
+import img4 from '../imgs/Capture7.PNG';
+import img5 from '../imgs/Capture2.PNG';
+import img6 from '../imgs/Capture3.png';
 
 function Portfolio() {
     return (
@@ -8,7 +14,7 @@ function Portfolio() {
                 <div id="carouselExampleIndicators" className="carousel slide carousel-fade z" data-ride="carousel">
                     <div className="carousel-inner">
                         <div classNAme="carousel-item active data-interval='100'">
-                            <img class="d-block w-100 grayscale " src="../src/imgs/Capture.PNG" alt="First slide" />
+                            <img class="d-block w-100 grayscale " src={img1} alt="First slide" />
                             <h3><strong>Pokdex Project</strong></h3>
                             <a href="https://vast-escarpment-44555.herokuapp.com/" target="_blank"><button type="button"
                                 class="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>
@@ -16,7 +22,7 @@ function Portfolio() {
                                 class="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                         </div>
                         <div className="carousel-item data-interval='100'">
-                            <img className="d-block w-100 grayscale" src="../imgs/Capture5.PNG" alt="Second slide" />
+                            <img className="d-block w-100 grayscale" src={img2} alt="Second slide" />
                             <h3><strong>GeoSnacks</strong></h3>
                             <a href="https://srassam.github.io/Project_1_Restaurant_Finder/" target="_blank"><button type="button"
                                 className="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>
@@ -24,7 +30,7 @@ function Portfolio() {
                                 className="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                         </div>
                         <div className="carousel-item data-interval='100'">
-                            <img className="d-block w-100 grayscale" src="../imgs/Capture6.PNG" alt="Third slide" />
+                            <img className="d-block w-100 grayscale" src={img3} alt="Third slide" />
                             <h3><strong>Class Directory</strong></h3>
                             <a href="https://powerful-lowlands-68943.herokuapp.com/" target="_blank"><button type="button"
                                 className="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>
@@ -32,7 +38,7 @@ function Portfolio() {
                                 className="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                         </div>
                         <div className="carousel-item data-interval='100'">
-                            <img className="d-block w-100 grayscale" src="../imgs/Capture7.PNG" alt="Third slide" />
+                            <img className="d-block w-100 grayscale" src={img4} alt="Third slide" />
                             <h3><strong>Fitness Tracker</strong></h3>
                             <a href="https://serene-hollows-52003.herokuapp.com/?id=5f6c17698612e400175f7619" target="_blank"><button type="button"
                                 className="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>
@@ -40,7 +46,7 @@ function Portfolio() {
                                 className="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                         </div>
                         <div className="carousel-item data-interval='100'">
-                            <img className="d-block w-100 grayscale" src="../imgs/Capture2.PNG" alt="Third slide" />
+                            <img className="d-block w-100 grayscale" src={img5} alt="Third slide" />
                             <h3><strong>Password Generator</strong></h3>
                             <a href="https://sharkattack182.github.io/password-generator/" target="_blank"><button type="button"
                                 className="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>
@@ -48,7 +54,7 @@ function Portfolio() {
                                 className="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                         </div>
                         <div className="carousel-item data-interval='100'">
-                            <img className="d-block w-100 grayscale" src="../imgs/Capture3.png" alt="Third slide" />
+                            <img className="d-block w-100 grayscale" src={img6} alt="Third slide" />
                             <h3><strong>Eat-da-Burger</strong></h3>
                             <a href="https://enigmatic-oasis-07418.herokuapp.com/" target="_blank"><button type="button"
                                 className="btn btn-dark zoom"><i className="fas fa-link"></i></button></a>

@@ -1,10 +1,12 @@
 import React from "react";
+import Img from '../imgs/IMG_5813.png';
+// import resume from '../imgs/resume.html';
 
 function Index() {
     return (
         <section>
             <div className="box text-center">
-                <img src="../src/imgs/IMG_5813.png" className="float-left" alt="selfie"/>
+                <img src= {Img} className="float-left" alt="selfie"/>
                     <h2><img src="https://fontmeme.com/permalink/201004/ccc013e4630cb9794053de14c3664e7d.png" alt="font" /></h2>
                     <p>
                         My name is Matthew Courtney. I am currently a UNC Charlotte Full Stack Web
@@ -25,7 +27,7 @@ function Index() {
                     </p>
                     <a href="https://github.com/sharkattack182" target="_blank" ><button type="button" className="btn btn-dark zoom"><i className="fab fa-github"></i></button></a>
                     <a href="https://www.linkedin.com/in/matthew-courtney-2854811b5/" target="_blank"><button type="button" className="btn btn-dark zoom"><i className="fab fa-linkedin"></i></button></a>
-                    <a href="resume.html" target="_blank"><button type="button" className="btn btn-dark zoom"><i className="fas fa-file"></i></button></a>
+                    <a href="#" target="_blank"><button type="button" className="btn btn-dark zoom"><i className="fas fa-file"></i></button></a>
                     <a href="mailto:matthewdc182@gmail.com"><button type="button" className="btn btn-dark zoom"><i className="fas fa-envelope-square"></i></button></a>
                     <a href="tel:607-206-4901"><button type="button" className="btn btn-dark zoom"><i className="fas fa-phone"></i></button></a>
                 </div>
